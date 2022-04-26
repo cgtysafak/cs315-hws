@@ -1,0 +1,50 @@
+for (i = 0; i < 10; i++)
+{
+    console.log(i);
+    if (i == 3) 
+    {
+         break;
+    }
+}
+
+var number = 0;
+
+do
+{
+    number++;
+} while (number != 5)
+
+console.log("NUMBER = " + number);
+
+// LABELED BREAK
+loopExit:
+for (i = 0; i < 3; i++)
+{
+    for (x = 0; x < 4; x++)
+    {
+        if (x == 2) 
+        {
+            break loopExit;
+        }
+        console.log("inner!");
+    }
+    console.log("outer!");
+}
+
+console.log("---LABELED LOOP FINISHED---");
+
+// UNLABELED BREAK 
+for (i = 0; i < 3; i++)
+{
+    for (x = 0; x < 4; x++)
+    {
+        if (x == 2) 
+        {
+            break;
+        }
+        console.log("inner!");
+    }
+    console.log("outer!");
+}
+
+console.log("---UNLABELED LOOP FINISHED---");
