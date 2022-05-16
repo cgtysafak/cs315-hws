@@ -6,3 +6,4 @@ This repository contains my solutions to the Bilkent University CS315 Homework A
 
 - `Homework 1:` Scoping Rules in Dart, Javascript, PHP, Python, and Perl
 - `Homework 2:` Logically-Controlled Loops in Dart, Javascript, PHP, Python, and Perl
+- `Homework 3:` Subprograms in Ruby
